@@ -31,12 +31,14 @@
             "Tests\\": "tests/"
         }
     },
-    
+
     "scripts": {
         "test": [
             "phpunit"
         ]
     },
 
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+
+    "prefer-stable": true
 }
